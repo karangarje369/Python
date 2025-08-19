@@ -1,0 +1,17 @@
+Python in shell -->
+we can import packages , libraries , modules 
+
+code of importing os module in shell 
+>> import os 
+>> os.getcwd()  --> gives current working directory 
+
+importing sys
+>> import sys
+>> sys.platform()  
+>> output-window
+Indentation error - An IndentationError in Python occurs when the interpreter encounters inconsistent or incorrect use of whitespace (spaces or tabs) to define code blocks. Unlike many other programming languages that use braces or keywords to delimit blocks, Python relies solely on indentation
+
+reload in Python
+form importlib import reload 
+
+reload(file_name)
