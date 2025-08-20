@@ -49,3 +49,22 @@ print(str7.format(name)) # here we can pass multiple values
 # List to String
 list1 = ['lemon', 'ginger', 'masala', 'mint']
 print(" ".join(list1))
+
+# find Length
+str8 = "abcabc"
+print(len(str8))
+
+for letter in str8:
+    print(letter)
+
+# Strings in Strings (Facing problems with multiple double,single quotes)
+
+str9 = "He said , \"Masala chai is awesome \" "    # here after \ we can give quotes so it will not treat as string 
+
+# defining Raw strings
+str10 = r"abc \n abc" # /n gets printed as \n
+print(str10)
+
+#Questioning 
+str11 = "masala chai"
+print("masala" in str11)
