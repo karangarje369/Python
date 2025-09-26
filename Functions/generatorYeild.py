@@ -5,6 +5,6 @@ def yieldFun(limit):
 for i in yieldFun(10):
     print(i)      
 
-# instead of return we use yield . yield remembers or has track of function 
+# instead of return we use yield . yield remembers or has track of function yeild doestnot end the function and it returns 
     
-    
+
